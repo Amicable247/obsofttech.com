@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link media="all" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+<script type="text/javascript">
+
+   /* $(document).ready(function(){
+      $("#hide").mouseout(function(){
+        $("div").hide();
+      });
+      $("#hide").click(function(){
+        $("div").show();
+      });
+    });
+    */
+    
+    
+   </script>
+    </head>
+    <body>
+        <input id="myInput" type="text" name="myId" id="myId" placeholder="Selecciona..."/>
+        <button>Show</button>
+<div id="drop" style="display:none;">
+    <ul>
+        <li>dog</li>
+        <li>sit</li>
+        <li>work</li>
+        <li>grade</li>
+        <li>liom</li>
+        <li>goat</li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+/*
+$(document).ready(function(){
+  $("#myId").click(function(){
+    $("div").hide();
+  });
+  $("#show").click(function(){
+    $("div").show();
+  });
+});*/
+
+$(document).ready(function(){
+      $("input#myInput").click(function(){
+       $("#drop").toggle();
+  });
+});
+
+var data = [
+    { label: "Choice 1", value: "choice_1" },
+    { label: "Choice 2", value: "choice_2" },
+    { label: "Choice 3", value: "choice_3" }]
+
+$(function() {
+    $('#myId').autocomplete({
+        source: data,
+        minLength: 2
+    }).click(function(){     
+        //Use the below line instead of triggering keydown
+        $(this).data("autocomplete").search($(this).val());
+    });
+});
+
+</script>
+        
+        
+</body>
+</html>

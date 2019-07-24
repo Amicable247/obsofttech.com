@@ -1,0 +1,213 @@
+#hydeeNav, .navbar-collapse{
+    width:auto;
+}
+.nav-link{
+    margin-right:35px;
+}
+
+/*h5, h2{
+    font-weight:bold;
+}*/
+
+/*@font-face {
+    font-family: "Russo One";
+    src: url("css/fonts/Russo_One");
+    src: url("css/fonts/Harabara.woff") format("woff"), url("css/fonts/Harabara.otf") format("opentype"), 
+    url("css/fonts/Harabara.svg#filename") format("svg");
+}*/
+
+
+li a{
+    font-size:20px;
+}
+.carousel-caption{
+    bottom:40%;
+}
+.carousel-caption h5{
+    font-size:5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #000000;
+}
+.carousel-caption p{
+    font-size:1.25rem;
+    text-shadow: 2px 2px 2px #000000;
+}
+@media (max-width:1024px){
+    .container{
+        max-width:90% !important;
+        width:90% !important;
+    }
+    .carousel-caption p{
+        font-size:1.30rem;
+    }
+    p{
+        font-size: 22px;
+    }
+    .carousel-caption{
+        bottom:30%;
+    }
+}
+
+@media(min-width:900px){
+    .adjust.btn-info {
+        margin-right: 31px !important;
+    }
+    }
+
+@media (max-width:827px){
+    .carousel-item img{
+        width:inherit !important;
+    }
+    .carousel-caption {
+        bottom:5%;
+    }
+    .carousel-caption h5{
+        font-size:3.0rem;
+    }
+}
+/*@media (max-width:1024px){
+    .container{
+        max-width:90% !important;
+        width:90% !important;
+    }
+    p {
+        font-size:20px !important;
+    }
+}*/
+@media (max-width:590px){
+    .carousel-item img{
+        width:inherit !important;
+    }
+    .carousel-caption {
+        bottom:3%;
+    }
+    .carousel-caption h5{
+        font-size:1.4rem;
+    }
+    .carousel-caption p{
+        font-size:0.8rem;
+    }
+    .btn{
+        font-size:0.7rem;
+    }
+}
+
+.navbar-toggler {
+    font-size: 1.3rem;
+    background-color: #000000 !important;   
+}
+
+.img-fluid{
+    border-radius:20px;
+}
+input {
+    margin-bottom: 16px;
+    padding: 11px 5px;
+    width: 80%;
+    border-radius:8px;
+    max-width:100%;
+}
+input#mc-embedded-subscribe {
+    background-color: #189eea !important;
+    color:#ffffff !important;
+}
+#contact img.img-fluid{
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.center{
+    text-align:center;
+}
+#AboutMe{
+    background-color:#189eea;
+    color:#ffffff;
+}
+#footer {
+    background-color:#545454 !important;
+    color:#ffffff !important;
+}
+h2, h5.card-title, .navbar-dark .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif !important;
+}
+nav {
+    background-color:#ffffff !important;
+    /*color:#ffffff !important;*/
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #189eea;
+}
+.navbar-dark .navbar-nav .active > .nav-link{
+    color:#189eea;
+}
+
+.btn-info{
+    background-color: #00316B;
+    border:0px;
+    /*margin-right:15px !important;*/
+}
+.btn-danger{
+    border:0px;
+}
+#WebDevelopment .img-fluid,#ecommerce .img-fluid,#graphicsDesign .img-fluid{
+    border-radius:0px;
+}
+#subheader{
+    background-image:url(../images/code-coding-connection.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height:250px;
+    max-height:70%;
+}
+#subheader h1{
+    padding-top:8%;
+}
+@media (max-width:800px){
+    #subheader h1{
+        padding-top:15%;
+    }
+}
+@media (min-width:800px){
+    #subheader h1{
+        padding-top:8%;
+    }
+}
+.fa{
+    color:#ffffff;
+}
+@media (min-width:800px){
+    #WebDevelopment img,#graphicsDesign img, #ecommerce img{
+        transition: all 0.6s;
+        
+    }
+    #WebDevelopment img:hover,#graphicsDesign img:hover, #ecommerce img:hover {
+        transform:scale(1.4)
+    }
+}
+.fab{
+    font-size: 25px;
+    line-height: 28px;
+}
+.socio a{
+    text-decoration:none;
+    color:#000000;
+}
+#footer a{
+    text-decoration:none;
+    color:#ffffff;
+}
+.bg{
+    background-color:#f1f1f1;
+}
+#footer p{
+    color:rgba(255,255,255);
+}
+@media(min-width:900px){
+.adjust.btn-info {
+    margin-right: 31px !important;
+}
+}
